@@ -7,15 +7,19 @@ public class Homework2 {
     private static void finger(int number) {
         if (number == 1){
             System.out.println("Мизинец");
+            return;
         }
         if (number == 2){
             System.out.println("Безымянный палец");
+            return;
         }
         if (number == 3){
             System.out.println("Средний палец");
+            return;
         }
         if (number == 4){
             System.out.println("Указательный палец");
+            return;
         }
         if (number == 5){
             System.out.println("Большой палец");
