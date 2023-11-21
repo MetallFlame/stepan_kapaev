@@ -1,10 +1,18 @@
 public class Homework2 {
     public static void main(String[] args) {
-        int number = 2;
+        int number = 7;
         finger(number);
     }
 
     private static void finger(int number) {
+        if (number < 1){
+            System.out.println("Ваше число некорректно.Введите число от одного до пяти");
+            return;
+        }
+        if (number > 5){
+            System.out.println("Ваше число некорректно.Введите число от одного до пяти");
+            return;
+        }
         if (number == 1){
             System.out.println("Мизинец");
             return;
@@ -21,11 +29,8 @@ public class Homework2 {
             System.out.println("Указательный палец");
             return;
         }
-        if (number == 5){
+        if (number == 5) {
             System.out.println("Большой палец");
-        }
-        else{
-            System.out.println("Ваш номер некорректен");
         }
     }
 }
