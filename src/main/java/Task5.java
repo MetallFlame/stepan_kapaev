@@ -2,9 +2,9 @@ public class Task5 {
     public static void main(String[] args) {
         int radius = 15;
 
-        perimetr(radius);
+        float perimetr = perimetr(radius);
         System.out.println(perimetr);
-        square(radius);
+        float square = square(radius);
         System.out.println(square);
     }
 
