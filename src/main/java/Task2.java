@@ -3,16 +3,18 @@ public class Task2 {
         int number = 376;
 
         if ((number >= 100)&&(number < 1000)){
-            sumCount(number);
+            int sum = sumCount(number);
+            System.out.println(sum);
         }
     }
 
-    private static void sumCount(int number) {
+    private static int sumCount(int number) {
         int digit1 = number % 10;
         number = number / 10;
         int digit2 = number % 10;
         number = number / 10;
         int digit3 = number % 10;
-        System.out.println(digit1 + digit2 + digit3);
+        int sum = digit1 + digit2 + digit3;
+        return (sum);
         }
     }

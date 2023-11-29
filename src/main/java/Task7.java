@@ -4,13 +4,15 @@ public class Task7 {
         int yearPercent = 10;
         int yearCount = 5;
 
-        yearSum(bankSum, yearPercent, yearCount);
+        float newBankSum = yearSum(bankSum, yearPercent, yearCount);
+        System.out.println(newBankSum);
     }
 
-    private static void yearSum(int bankSum, int yearPercent, int yearCount) {
+    private static float yearSum(int bankSum, int yearPercent, int yearCount) {
+        float newBankSum = bankSum;
         for (int i = 0; i < yearCount; i++){
-            bankSum = bankSum + (bankSum * yearPercent / 100);
+            newBankSum = newBankSum + (newBankSum * yearPercent / 100);
         }
-        System.out.println(bankSum);
+        return (newBankSum);
     }
 }
