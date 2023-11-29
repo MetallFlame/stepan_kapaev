@@ -8,7 +8,7 @@ public class Task6 {
     }
 
     private static void perimetres(int w, int h) {
-        System.out.println("Периметр треугольника равен " + w * h);
+        System.out.println("Периметр прямоугольника равен " + w * h);
     }
 
     private static void square(int w, int h) {
