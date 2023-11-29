@@ -8,7 +8,6 @@ public class Task3 {
     private static int intCount(float number) {
         int number1 = (int) (number * 10);
         int number2 = number1 % 10;
-        int[] arr = new int[]{number1, number2};
         if (number2 < 5) {
             int count = (number1 - number2) / 10;
             return (count);
