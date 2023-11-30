@@ -1,6 +1,6 @@
 public class Task11 {
     public static void main(String[] args) {
-        int seconds = 5000;
+        int seconds = 1298444;
 
         dayConventer(seconds);
     }

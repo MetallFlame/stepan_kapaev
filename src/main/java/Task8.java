@@ -1,15 +1,15 @@
 public class Task8 {
     public static void main(String[] args) {
-        int secondCount = 5;
+        float secondCount = 5;
 
-        int distance = distanceLighting(secondCount);
+        float distance = distanceLighting(secondCount);
         System.out.println(distance + " метров");
     }
 
-    private static int distanceLighting(int secondCount) {
+    private static float distanceLighting(float secondCount) {
         int soundSpeed = 343;
 
-        int distanceLighting = soundSpeed * secondCount;
+        float distanceLighting = soundSpeed * secondCount;
         return (distanceLighting);
     }
 }

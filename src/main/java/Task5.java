@@ -1,6 +1,6 @@
 public class Task5 {
     public static void main(String[] args) {
-        int radius = 15;
+        float radius = 15;
 
         float perimetr = perimetr(radius);
         System.out.println(perimetr);
@@ -8,14 +8,14 @@ public class Task5 {
         System.out.println(square);
     }
 
-    private static float square(int radius) {
+    private static float square(float radius) {
         float pCount = 3.14F;
 
         float square = radius * radius * pCount;
         return (square);
     }
 
-    private static float perimetr(int radius) {
+    private static float perimetr(float radius) {
         float pCount = 3.14F;
 
         float perimetr = radius * 2 * pCount;

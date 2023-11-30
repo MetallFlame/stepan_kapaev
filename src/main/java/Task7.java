@@ -1,18 +1,17 @@
 public class Task7 {
     public static void main(String[] args) {
-        int bankSum = 100000;
-        int yearPercent = 10;
-        int yearCount = 5;
+        float bankSum = 50000.0F;
+        float yearPercent = 5.9F;
+        int yearCount = 10;
 
         float newBankSum = yearSum(bankSum, yearPercent, yearCount);
-        System.out.println(newBankSum);
+        System.out.println("Ваш банковский счёт спустя " + yearCount + " лет" + " - " + newBankSum + "$");
     }
 
-    private static float yearSum(int bankSum, int yearPercent, int yearCount) {
-        float newBankSum = bankSum;
+    private static float yearSum (float bankSum, float yearPercent, int yearCount) {
         for (int i = 0; i < yearCount; i++){
-            newBankSum = newBankSum + (newBankSum * yearPercent / 100);
+            bankSum = bankSum + (bankSum * yearPercent / 100);
         }
-        return (newBankSum);
+        return (bankSum);
     }
 }
