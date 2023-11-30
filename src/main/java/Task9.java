@@ -8,6 +8,7 @@ public class Task9 {
 
     private static boolean isInteger(float number) {
         int digit = (int) ((number * 10) % 10);
+
         switch (digit){
             case 0:
                 boolean integer1 = true;
