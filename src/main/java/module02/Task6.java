@@ -1,3 +1,5 @@
+package module02;
+
 public class Task6 {
     public static void main(String[] args) {
         float w = 10;

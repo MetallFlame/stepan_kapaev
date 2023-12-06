@@ -1,3 +1,5 @@
+package module02;
+
 public class Task9 {
     public static void main(String[] args) {
         float number = 4.6F;

@@ -1,4 +1,6 @@
-public class Modul3Task3 {
+package module03;
+
+public class Task3 {
     public static void main(String[] args) {
         int animalNumber = 5;
 

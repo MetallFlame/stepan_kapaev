@@ -1,3 +1,5 @@
+package module02;
+
 public class Task3 {
     public static void main(String[] args) {
         float number = 6.4F;
@@ -11,12 +13,10 @@ public class Task3 {
         int number2 = number1 % 10;
 
         if (number2 < 5) {
-            int count = (number1 - number2) / 10;
-            return (count);
+            return (number1 - number2) / 10;
         }
         else {
-            int count = (number1 - number2) / 10 + 1;
-            return (count);
+            return  (number1 - number2) / 10 + 1;
         }
     }
 }

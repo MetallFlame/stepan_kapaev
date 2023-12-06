@@ -1,3 +1,5 @@
+package module02;
+
 public class Task8 {
     public static void main(String[] args) {
         float secondCount = 5;

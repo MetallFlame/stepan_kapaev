@@ -7,7 +7,7 @@ public class Homework {
        }
     private static void print(char[] arr1) {
         for (int i = 0; i < arr1.length; i++){
-            System.out.println(arr1[i]);
+            System.out.print(arr1[i]);
         }
     }
     private static void sort(char[] arr1) {
