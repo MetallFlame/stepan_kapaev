@@ -2,11 +2,11 @@ package module03;
 
 public class Task5 {
     public static void main(String[] args) {
-        int year = 2011;
-        int month = 3;
-        int date = 30;
+        int year = 1878;
+        int month = 12;
+        int date = 18;
 
-        if ((year >= 1930)&&(month > 0)&&(month <= 12)&&(date > 0)&&(date <= 31)){
+        if ((year > 0)&&(month > 0)&&(month <= 12)&&(date > 0)&&(date <= 31)){
             switch (month){
                 case 2:
                     if (year % 4 == 0){
@@ -69,7 +69,7 @@ public class Task5 {
                 System.out.println("Ваш год: год кота");
                 break;
             case 8:
-                System.out.println("Ваш год: год дракон");
+                System.out.println("Ваш год: год дракона");
                 break;
             case 9:
                 System.out.println("Ваш год: год змеи");
