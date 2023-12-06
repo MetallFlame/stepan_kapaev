@@ -1,3 +1,5 @@
+package module02;
+
 public class Task12 {
     public static void main(String[] args) {
         int studentsCount = 500;

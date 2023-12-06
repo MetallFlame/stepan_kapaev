@@ -1,4 +1,6 @@
-public class Modul3Task2 {
+package module03;
+
+public class Task2 {
     public static void main(String[] args) {
         int o_clock = 3;
 

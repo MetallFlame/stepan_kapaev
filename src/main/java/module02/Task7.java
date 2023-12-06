@@ -1,3 +1,5 @@
+package module02;
+
 public class Task7 {
     public static void main(String[] args) {
         float bankSum = 50000.0F;

@@ -1,3 +1,5 @@
+package module02;
+
 public class Task11 {
     public static void main(String[] args) {
         int seconds = 1298444;
