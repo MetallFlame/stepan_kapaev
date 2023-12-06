@@ -4,10 +4,10 @@ public class Task5 {
     public static void main(String[] args) {
         float radius = 15;
 
-        float perimetr = perimetr(radius);
-        System.out.println(perimetr);
-        float square = square(radius);
-        System.out.println(square);
+        float perimetrCount = perimetr(radius);
+        System.out.println(perimetrCount);
+        float squareCount = square(radius);
+        System.out.println(squareCount);
     }
 
     private static float square(float radius) {
