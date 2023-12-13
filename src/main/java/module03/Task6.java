@@ -2,7 +2,7 @@ package module03;
 
 public class Task6 {
     public static void main(String[] args) {
-        int year = 300;
+        int year = 2024;
 
         dayCount(year);
     }

@@ -2,9 +2,9 @@ package module03;
 
 public class Task5 {
     public static void main(String[] args) {
-        int year = 1878;
-        int month = 12;
-        int date = 18;
+        int year = 1993;
+        int month = 6;
+        int date = 21;
 
         if ((year > 0)&&(month > 0)&&(month <= 12)&&(date > 0)&&(date <= 31)){
             switch (month){
