@@ -8,7 +8,7 @@ public class Task5 {
     }
 
     private static void isReversive(int number) {
-        String number1 = new String(Integer.toString(number));
+        String number1 = Integer.toString(number);
         StringBuilder name = new StringBuilder(Integer.toString(number));
         name.reverse();
         String name1 = name.toString();
