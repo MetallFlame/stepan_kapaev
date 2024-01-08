@@ -2,7 +2,7 @@ package module04;
 
 public class Task5 {
     public static void main(String[] args) {
-        int number = 73693;
+        int number = 765567;
 
         isReversive(number);
     }
