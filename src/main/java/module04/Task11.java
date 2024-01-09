@@ -15,19 +15,14 @@ public class Task11 {
             }
             if (i % 3 == 0) {
                 if (i % 5 == 0){
-                    System.out.print("hi");
+                    System.out.println("hiss");
                 }
-                if (i % 3 == 0){
+                if ((i % 3 == 0)&&(i % 5 > 0)){
                     System.out.println("fizz");
                 }
             }
-            if (i % 5 == 0){
-                if (i % 3 == 0){
-                    System.out.println("ss");
-                }
-                else {
-                    System.out.println("buzz");
-                }
+            if ((i % 5 == 0)&&(i % 3 > 0)){
+                System.out.println("buzz");
             }
         }
     }
