@@ -4,7 +4,7 @@ package module04;
 public class module2Task3 {
     public static void main(String[] args) {
         int number = 25;
-        boolean emptyFull = true;
+        boolean emptyFull = false;
 
         isoscelesTriagle(number, emptyFull);
     }
