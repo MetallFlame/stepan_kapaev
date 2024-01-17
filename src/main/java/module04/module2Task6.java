@@ -8,19 +8,22 @@ public class module2Task6 {
     }
 
     private static void drawingProgramm(int floorCount) {
-        for (int i = 0; i < floorCount; i++){
+        for (int i = 1; i < floorCount; i++){
             if (i == 1) {
                 System.out.println("***");
-                System.out.println("   ");
+                System.out.println();
                 System.out.println("  *");
             }
             else {
-                for (int j = 0; j < i; j++){
-                    System.out.print("   ");
+                System.out.println();
+                for (int j = 1; j < i; j++){
+                    System.out.print("  ");
                 }
-                System.out.println("   ");
                 System.out.println("***");
-                System.out.println("   ");
+                System.out.println();
+                for (int j = 1; j < i; j++){
+                    System.out.print("  ");
+                }
                 System.out.println("  *");
             }
         }

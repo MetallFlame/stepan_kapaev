@@ -2,7 +2,7 @@ package module04;
 
 public class Task11 {
     public static void main(String[] args) {
-        int min = 0;
+        int min = 1;
         int max = 1000;
 
         fizzBuzzHiss(min, max);
