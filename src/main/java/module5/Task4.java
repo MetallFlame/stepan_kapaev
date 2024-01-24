@@ -2,7 +2,7 @@ package module5;
 
 public class Task4 {
     public static void main(String[] args) {
-        String name = "hpeu aapg";
+        String name = "hpeu aapg perehgejklgher alfghkjrha adfghjdfgkh";
 
         words(name);
     }

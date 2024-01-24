@@ -6,7 +6,11 @@ public class Task1 {
         char symbol = 'l';
 
         int count = sameSymbols(name, symbol);
-        System.out.println(count);
+        if (count == 0){
+            System.out.println("Совпадений нет!");
+        } else {
+            System.out.println(count);
+        }
     }
 
     private static int sameSymbols(String name, char symbol) {
@@ -17,9 +21,6 @@ public class Task1 {
                 count++;
                 System.out.println(i + 1);
             }
-        }
-        if (count == 0){
-            System.out.println("Совпадений нет!");
         }
         return count;
     }

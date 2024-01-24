@@ -3,7 +3,7 @@ package module5;
 public class Task2 {
     public static void main(String[] args) {
         int number = 100;
-
+        int n = 10;
         String name = counts(number);
         System.out.println(name);
     }

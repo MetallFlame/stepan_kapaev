@@ -2,7 +2,7 @@ package module5;
 
 public class Task3 {
     public static void main(String[] args) {
-        String name = "Stepa";
+        String name = "Stepa wertwe ertqwer t ertertgert";
 
         float lenth = middleLenth(name);
         System.out.println(lenth);
