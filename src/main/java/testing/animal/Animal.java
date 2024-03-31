@@ -1,4 +1,4 @@
-package testing;
+package testing.animal;
 
 public abstract class Animal {
     protected String name;

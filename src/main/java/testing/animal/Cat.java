@@ -1,4 +1,4 @@
-package testing;
+package testing.animal;
 
 public class Cat extends Animal {
 
